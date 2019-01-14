@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func wind(_ sender: Any) {
+        
+        // 세그웨이를 실행한다.
+        self.performSegue(withIdentifier: "ManualWind", sender: self)
+    }
+    
 }
 
