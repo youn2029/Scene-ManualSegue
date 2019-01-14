@@ -38,7 +38,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="ums-JJ-eXH" kind="presentation" identifier="ManualWind" id="SAC-Jp-ff7"/>
+                        <segue destination="ums-JJ-eXH" kind="presentation" identifier="ManualWind" modalTransitionStyle="partialCurl" id="SAC-Jp-ff7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
